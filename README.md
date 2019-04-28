@@ -1,2 +1,2 @@
-# home
-home page
+# Landing Page
+http://www.williamhong.me/
