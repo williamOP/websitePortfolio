@@ -60,7 +60,7 @@
     tLoading: 'Loading image #%curr%...',
     mainClass: 'mfp-img-mobile mfp-with-zoom',
     gallery: {
-      enabled: true,
+      enabled: false,
       navigateByImgClick: true,
       preload: [0, 1]
     },
