@@ -36,9 +36,12 @@
       </button>
       <div class="collapse navbar-collapse text-uppercase" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#varnomen">varnomen</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#adsa">adsa</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#campaign">campaign</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#waveform">waveform</a></li>
+          <!-- 
           <li class="nav-item dropdown">
             <a class="nav-link js-scroll-trigger dropdown-toggle d-none d-lg-block" href="#" data-toggle="dropdown">Portfolio</a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -59,7 +62,7 @@
             <li class="nav-item"><a href="https://varnomen.hgvs.org/" class="nav-link"></a>Variant Nomenclature</li>
             <li class="nav-item"><a href="https://adsa.org.au/" class="nav-link"></a>ADSA</li>
             <li class="nav-item"><a href="http://waveform-906.appspot.com/" class="nav-link"></a>WaveForm</li>
-          </div>
+          </div> -->
         </ul>
       </div>
     </div>
@@ -81,23 +84,23 @@
   </header>
 
   <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
+<!--   <section class="page-section bg-primary" id="about">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0 text-uppercase">The Showcase</h2>
+          <h2 class="text-black mt-0 text-uppercase">The Showcase</h2>
           <hr class="divider light my-4">
-          <p class="text-white-75 mb-4">Click below to view thumbnails. Link is available in the thumbnail description!</p>
+          <p class="text-black-50 mb-4">Click below to view thumbnails. Link is available in the thumbnail description!</p>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Portfolio Section -->
   <section id="portfolio">
     <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
+      <div class="row no-gutters d-flex justify-content-center mx-auto">
+        <div class="col-11 mt-5 mb-3" id="resume">
           <a class="portfolio-box" href="img/portfolio/1.PNG" data-source="http://resume.williamhong.me/" data-desc="Independently created 2019. Bootstrap CSS, javascript (jQuery)" title="Resume">
             <img class="img-fluid" src="img/portfolio/1.PNG" alt="">
             <div class="portfolio-box-caption">
@@ -110,7 +113,14 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="text-black-50 mt-2 mb-3">Independently created 2019. Bootstrap CSS, javascript (jQuery)</div>
+            <a class="btn btn-dark btn-xl" href="http://resume.williamhong.me/" target="_blank">Visit</a>
+          </div>
+        </div>
+
+        <div class="col-11 mt-5 mb-3" id="varnomen">
           <a class="portfolio-box" href="img/portfolio/3.PNG" data-source="https://varnomen.hgvs.org/" data-desc="Independently created 2015. Bootstrap CSS, javascript (jQuery), Jekyll templating system" title="Sequence Variant Nomenclature">
             <img class="img-fluid" src="img/portfolio/3.PNG" alt="">
             <div class="portfolio-box-caption">
@@ -123,7 +133,14 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="text-black-50 mt-2 mb-3">Independently created 2015. Bootstrap CSS, javascript (jQuery), Jekyll templating system</div>
+            <a class="btn btn-dark btn-xl" href="https://varnomen.hgvs.org/" target="_blank">Visit</a>
+          </div>
+        </div>
+
+        <div class="col-11 mt-5 mb-3" id="adsa">
           <a class="portfolio-box" href="img/portfolio/5.PNG" data-source="https://adsa.org.au/" data-desc="Involved in development 2017, further independent improvements 2018. WordPress CMS" title="ADSA">
             <img class="img-fluid" src="img/portfolio/5.PNG" alt="">
             <div class="portfolio-box-caption">
@@ -136,7 +153,14 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="text-black-50 mt-2 mb-3">Involved in development 2017, further independent improvements 2018. WordPress CMS</div>
+            <a class="btn btn-dark btn-xl" href="https://adsa.org.au/" target="_blank">Visit</a>
+          </div>
+        </div>
+
+        <div class="col-11 mt-5 mb-3" id="campaign">
           <a class="portfolio-box" href="img/portfolio/2.PNG" data-source="http://campaign.williamhong.me/" data-desc="Independently created 2016. Bootstrap CSS, javascript (jQuery)" title="Campaign">
             <img class="img-fluid" src="img/portfolio/2.PNG" alt="">
             <div class="portfolio-box-caption">
@@ -149,7 +173,14 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="text-black-50 mt-2 mb-3">Independently created 2016. Bootstrap CSS, javascript (jQuery)</div>
+            <a class="btn btn-dark btn-xl" href="http://campaign.williamhong.me/" target="_blank">Visit</a>
+          </div>
+        </div>
+
+        <div class="col-11 mt-5 mb-3" id="waveform">
           <a class="portfolio-box" href="img/portfolio/4.PNG" data-source="http://waveform-906.appspot.com/" data-desc="Involved in development 2015. Bootstrap CSS, javascript, Google app engine" title="WaveForm">
             <img class="img-fluid" src="img/portfolio/4.PNG" alt="">
             <div class="portfolio-box-caption">
@@ -162,6 +193,13 @@
             </div>
           </a>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <div class="text-black-50 mt-2 mb-3">Involved in development 2015. Bootstrap CSS, javascript, Google app engine</div>
+            <a class="btn btn-dark btn-xl" href="http://waveform-906.appspot.com/" target="_blank">Visit</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
