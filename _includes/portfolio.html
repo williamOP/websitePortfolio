@@ -4,11 +4,13 @@
       <div class="row no-gutters d-flex justify-content-center mx-auto">
 
         
-        <div class="col-11 text-center mt-5" id={{include.id}}>
+        <div class="col-11 text-center my-5" id={{include.id}}>
             <!-- <a class="portfolio-box" href="img/portfolio/1.PNG" data-source="http://resume.williamhong.page/" data-desc="Independently created 2019. Bootstrap CSS, javascript (jQuery)" title="Resume"> -->
-              <a href={{include.url}}>
-                <img class="img-fluid mx-auto" src={{include.imgURL}} alt={{include.id}}>
-              </a> 
+              <div>
+                <a href={{include.url}}>
+                  <img class="img-fluid mx-auto" src={{include.imgURL}} alt={{include.id}}>
+                </a> 
+              </div>
   <!--             <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">
                   Personal Project
@@ -18,7 +20,7 @@
                 </div>
               </div>
             </a> -->
-              <div class="text-white-50 mt-2 mb-3 mx-auto caption">
+              <div class="text-white-50 mt-4 mb-3 mx-auto ">
                 <b> {{include.caption}} </b> <br> 
                 <i> {{include.projectType}} </i> <br>
                 {{include.technology}}

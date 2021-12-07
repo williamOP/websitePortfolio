@@ -1,28 +1,44 @@
 ---
-layout:default 
+layout: default
 ---
 
-<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      William Hong
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-uppercase" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto my-2 my-lg-0">
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#varnomen">varnomen</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#adsa">adsa</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#campaign">campaign</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#waveform">waveform</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            William Hong
-          </a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-uppercase" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto my-2 my-lg-0">
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#varnomen">varnomen</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#adsa">adsa</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#campaign">campaign</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#waveform">waveform</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+{% include masthead.html pageName = "Website Portfolio" %}
 
-</body>
+{% include portfolio.html id="resume" url="http://www.williamhong.page/" imgURL="img/portfolio/blog.PNG" 
+caption="Dental blog" projectType="Personal Project" technology="Independently created 2021. Bootstrap CSS, HTML" %}
+
+{% include portfolio.html id="resume" url="http://resume.williamhong.page/" imgURL="img/portfolio/resume.PNG" 
+caption="Online resume" projectType="Personal Project" technology="Independently created 2019. Bootstrap CSS, javascript (jQuery)" %}
+
+{% include portfolio.html id="varnomen" url="https://varnomen.hgvs.org/" imgURL="img/portfolio/varnomen.PNG"
+caption="Sequence Variant Nomenclature" projectType="Project for HGVS" technology="Independently created 2015. Bootstrap CSS, javascript (jQuery), Jekyll templating system" %}
+
+{% include portfolio.html id="adsa" url="https://adsa.org.au/" imgURL="img/portfolio/adsa.PNG"
+caption="ADSA website" projectType="ADSA IT Officer Role" technology="Involved in development 2017, further independent improvements 2018. WordPress CMS" %}
+
+{% include portfolio.html id="campaign" url="http://campaign.williamhong.page/" imgURL="img/portfolio/campaign.PNG"
+caption="Campaign" projectType="Personal Project" technology="Independently created 2016. Bootstrap CSS, javascript (jQuery)" %}
+
+{% include portfolio.html id="waveform" url="http://waveform-906.appspot.com/" imgURL="img/portfolio/waveform.PNG"
+  caption="WaveForm" projectType="University Project" technology="Involved in development 2015. Bootstrap CSS, javascript, Google app engine" %}

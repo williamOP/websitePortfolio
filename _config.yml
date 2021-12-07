@@ -21,10 +21,8 @@
 title: Website Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
   Website portfolio for William Hong
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://williamhong.page" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl:  # the subpath of your site, e.g. /blog
+url: "https://portfolio.williamhong.page" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
